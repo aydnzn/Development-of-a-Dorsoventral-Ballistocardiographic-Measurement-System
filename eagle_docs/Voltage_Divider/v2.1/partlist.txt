@@ -1,0 +1,35 @@
+Partlist
+
+Exported from v2.1.brd at 29.05.2019 11:04
+
+EAGLE Version 9.1.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package          Library       Position (mm)         Orientation
+
+BNC_ECG  1-227161-2     AMP_227161       con-coax      (7.4 12)              R90
+BNC_RAW  1-227161-2     AMP_227161       con-coax      (7.5 48)              R90
+BNC_RECT 1-227161-2     AMP_227161       con-coax      (7.5 30)              R90
+BNC_REF  1-227161-2     AMP_227161       con-coax      (7.5 66)              R90
+BP_RECT  FILTER_V2      MODULE_FILTER_V2 uguz_cEGG     (31 20)               R270
+C1       22n            C0805            rcl           (51.6532 34.112)      MR0
+C2       100n           C0805            resistor      (51.7 3.5)            MR270
+C3       100n           C0805            resistor      (47.7 5.6)            MR90
+C4       56n            C0805            rcl           (29.8 12.2)           MR0
+C19      100n           C0805            resistor      (31.7332 35.9066)     MR0
+C20      100n           C0805            resistor      (35.7104 53.9704)     MR0
+D1       SD103          DIODE_SMB        eagle-ltspice (50.7 41.7)           MR0
+HP       FILTER_V2      MODULE_FILTER_V2 uguz_cEGG     (31 56)               R270
+IC1      OPA2107D       SO08             linear        (32.8104 44.586)      MR180
+INA      AD8429         SO8              uguz_cEGG     (40.7 4)              MR90
+JP_ECG                  1X02             pinhead       (23.2 3.8)            R90
+JP_IMP                  1X04             pinhead       (27.0044 73.4384)     R0
+JP_REF                  1X02             pinhead       (39.4356 73.8624)     R180
+LP       FILTER_V2      MODULE_FILTER_V2 uguz_cEGG     (33.6 38)             R90
+R1       72k            R0805            rcl           (51.7468 27.8732)     MR180
+R2       1k             R0805            rcl           (52 53.2)             MR180
+R3       100k           R0805            rcl           (52 48.2)             MR180
+R4       82k            R0805            rcl           (31.8 16.7)           MR180
+RG2      500            R0805            rcl           (31.8 4)              MR90
+U$1      POWER_DUAL_12  MODULE_4X8       uguz_cEGG     (64.6424 41.005)      R270
